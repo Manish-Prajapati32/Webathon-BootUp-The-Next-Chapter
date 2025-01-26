@@ -1,7 +1,6 @@
 # Webathon-BootUp-The-Next-Chapter
 
 Webathon-BootUp-The-Next-Chapter/
-├── README.md  
 ├── Week-1/  
 │   ├── Task-1/  
 │   ├── Task-2/  
