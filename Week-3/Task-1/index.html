@@ -7,12 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="traffic-light">
-        <div class="light red"></div>
-        <div class="light yellow"></div>
-        <div class="light green"></div>
+    <div class="road"></div>
+    <div class="container">
+        <h1>🚦 Traffic Light Simulator</h1>
+        
+        <div class="traffic-light-container">
+            <div class="traffic-light">
+                <div class="light red active"></div>
+                <div class="light yellow"></div>
+                <div class="light green"></div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="next">Next Light</button>
+            <button id="auto">Auto Mode</button>
+            <button id="realistic">Realistic Mode</button>
+            <button id="emergency">Emergency</button>
+        </div>
+
+        <div class="status">
+            <h3>Status</h3>
+            <p id="current-state">Current: <strong>STOP</strong></p>
+            <p id="mode">Mode: <strong>Manual</strong></p>
+            <div class="timer" id="timer"></div>
+        </div>
     </div>
-    <button id="next">Next</button>
+
     <script src="script.js"></script>
 </body>
 </html>
